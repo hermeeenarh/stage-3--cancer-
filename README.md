@@ -48,3 +48,10 @@ y_pred_linear = linear_model.predict(X_test_selected)
 mse_linear = mean_squared_error(y_test, y_pred_linear)
 
 print("Mean Squared Error:", mse_linear)
+import pandas as pd
+
+# Load the dataset
+df_link = 'https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/cpg_methylation_age_data.csv'
+
+df = pd.read_csv(df_link)
+print(df.head())
