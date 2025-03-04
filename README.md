@@ -55,3 +55,13 @@ df_link = 'https://raw.githubusercontent.com/HackBio-Internship/2025_project_col
 
 df = pd.read_csv(df_link)
 print(df.head())
+
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv('https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/plant_microbe_interaction_data_v2.csv')
+
+# Display the first few rows
+print(df.head())
+
+
